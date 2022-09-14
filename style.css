@@ -1,0 +1,222 @@
+.bg1 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(res/bg1.jpg);
+
+  /* background: 
+    linear-gradient(217deg, rgb(15 127 161 / 77%), rgba(255,0,0,0) 70.71%),
+   linear-gradient(127deg, rgb(177 0 255 / 57%), rgba(0,255,0,0) 70.71%), 
+   linear-gradient(336deg, rgb(255 0 248 / 41%), rgba(0,0,255,0) 70.71%); */
+
+  /* filter: blur(2px); */
+}
+.bg2 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(res/bg2.jpg);
+
+  /* filter: blur(2px); */
+}
+.bg3 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(res/bg3.jpg);
+
+  /* filter: blur(2px); */
+}
+.bg4 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(res/bg4.jpg);
+
+  /* filter: blur(2px); */
+}
+
+.intro {
+  padding: 75px 18px;
+  width: 500px;
+  height: auto;
+}
+h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+}
+.intro ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+ul li a {
+  font-family: "Courier New", Courier, monospace;
+}
+.navi li {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 5px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.loginbx {
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+  padding: 75px 30px;
+  width: 500px;
+  height: auto;
+}
+.loginbx input {
+  width: 250px;
+  color: #fff;
+  line-height: 35px;
+  background-color: transparent;
+  border: 0.2px solid gray;
+  border-radius: 4px;
+  font-size: 10px;
+}
+.loginbx button {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #a807b5;
+  border: 0.5px solid transparent;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  height: 37px;
+  text-transform: capitalize;
+
+  cursor: pointer;
+  position: relative;
+}
+.icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+/* about */
+.boxx {
+  background: rgb(63, 63, 63);
+  border-radius: 15px;
+  height: 57vw;
+  width: 41vw;
+  margin: 0 30vw;
+  /* margin-right: 38vw; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 7px 3px rgb(164, 158, 158);
+}
+.hedpic {
+  height: 14vw;
+  width: 14vw;
+  margin-top: 20px;
+
+  content: " ";
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+.box_info {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.box_info h1 {
+  font-size: medium;
+}
+.box_info p {
+  font-size: 10px;
+  /* align-self: center; */
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+.big_box {
+  background: rgb(63, 63, 63);
+  border-radius: 15px;
+  height: 45vw;
+  width: 76vw;
+  margin: 0 10vw;
+  display: flex;
+  box-shadow: 0px 0px 7px 3px rgb(164, 158, 158);
+
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+}
+.sidpic {
+  height: 42.5vw;
+  width: 78vw;
+  margin: 8px;
+  border-radius: 15px;
+  content: " ";
+  background: #000;
+  /* overflow: clip;    */
+}
+.big_box_info {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.big_box_info h1 {
+  padding-top: 15px;
+  font-size: medium;
+}
+.big_box_info p {
+  font-size: 10px;
+  /* align-self: center; */
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.big_box_rev {
+  background: rgb(63, 63, 63);
+  border-radius: 15px;
+  height: 45vw;
+  width: 76vw;
+  margin: 0 10vw;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  flex-wrap: nowrap;
+  box-shadow: 0px 0px 5px 5px rgb(164, 158, 158);
+}
+.divide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dividerball {
+  margin-left: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 3px;
+  width: 3px;
+  background-color: #ffffff;
+
+  content: " ";
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+}
