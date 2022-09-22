@@ -21,7 +21,6 @@
   background-size: cover;
   background-image: url(res/bg2.jpg);
 
-  /* filter: blur(2px); */
 }
 .bg3 {
   height: 100%;
@@ -169,11 +168,9 @@ ul li a {
   border-radius: 15px;
   content: " ";
   background: #000;
-  /* overflow: clip;    */
 }
 .big_box_info {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
@@ -183,7 +180,6 @@ ul li a {
 }
 .big_box_info p {
   font-size: 10px;
-  /* align-self: center; */
   padding-left: 8px;
   padding-right: 8px;
   text-align: center;
