@@ -13,30 +13,14 @@ header,footer {
   display: flex;
 }
 
-.option_hover_area{
-  height: 10vh;
-  width: 10vh;
-}
-.option_hover_icon{
-  margin: 1vh;
-  height: 8vh;
-  width: 8vh;
-  background-color: #202020;
-  border: 1px solid rgb(131, 131, 131);
-  border-radius: 9px;
-}
+
+
 .content_body{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
-.side_option_bar{
-  width: 50px;
-  height: 88.5vw;
-  background-color:  rgb(76, 137, 252);
-  transition: 300ms;
-  flex: 0 0 auto;
-}
+
 .main_stuff_body{
   display: flex;
   flex-direction: column;
@@ -45,13 +29,19 @@ header,footer {
   ;
 }
 .main_stuff {
-  background: blue;
+  /* background: blue; */
   height: 80vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main_stuff h1{
+  color: rgb(85, 82, 82);
 }
 
 .othr_plat{
   height: 5vw;
-  background: green;
+  /* background: green; */
   padding-bottom: 25px;
 }
 ul{
@@ -67,6 +57,11 @@ ul li{
   border: 1px solid rgb(219, 219, 219);
   border-radius: 100px;
   background: transparent;
+}
+
+ul li:hover{
+  transform: scale(1.1);
+  transition: 50ms;
 }
 ul li a{
   text-decoration: none;
