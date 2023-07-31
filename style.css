@@ -63,8 +63,12 @@ ul li:hover{
   transform: scale(1.1);
   transition: 50ms;
 }
-ul li a{
-  text-decoration: none;
+a{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-decoration: none;
 }
 
 
